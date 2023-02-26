@@ -3,16 +3,21 @@
   margin: 0;
   padding: 0;
 }
-
+ 
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #1B1A1B;
   color: #FFFFFF;
-}
+} 
 
 .container {
   max-width: 1180px;
   margin: 145px auto 50px;
+} 
+
+.bg-1 {
+  background: url("../img/bg-1.png") no-repeat right top 65px ;
+  height: 762px;
 }
 
 .title {
@@ -25,11 +30,6 @@ body {
   font-size: 28px;
   padding-left: 100px;
   line-height: 50px;
-}
-
-.bg-1 {
-  background: url("../img/bg-1.png") no-repeat right top 65px ;
-  height: 762px;
 }
 
 .section-title {
@@ -97,7 +97,7 @@ fieldset {
 }
 
 .quote-text {
-  font-size: 44px;
+  font-size: 43px;
   line-height: 50px;
   text-transform: uppercase;
   padding-left: 55px;
